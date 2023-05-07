@@ -1,50 +1,50 @@
 html {
-                                font-family: monospace;
-                                display:flex;
-                                justify-content:center;
-                                align-items:center;
-                                width:100%;
-                                min-height:100%;
-                        }
-                        body {
-                                margin-top: 20px;
-                                width: 80%;
-                                max-width: 500px;
-                        }
-                        body h1 {
-                                display: block;
-                                text-align: center;
-                        }
-                        p.subtitle {
-                                font-style: italic;
-                                font-size: 14px;
-                                margin-top: 2px;
-                        }
-                        img.logo {
-                                display: block;
-                                margin-left: auto;
-                                margin-right: auto;
-                                width: 200px;
-                        }
-                        div.actions {
-                                border: 1px solid lightgrey;
-                                padding: 0px 20px 20px 20px;
-                                margin-bottom: 20px;
-                        }
-                        div.actions a {
-                                display: block;
-                                margin-bottom: 20px;
-                        }
-                        div.actions a:before {
-                                content: "→";
-                                margin-right: 6px;
-                        }
-                        div.actions h3 {
-                                text-align: center;
-                                margin-bottom: 20px;
-                                padding-bottom: 10px;
-                                border-bottom: 1px solid lightgrey;
-                }
+        font-family: monospace;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        width:100%;
+        min-height:100%;
+}
+body {
+        margin-top: 20px;
+        width: 80%;
+        max-width: 500px;
+}
+body h1 {
+        display: block;
+        text-align: center;
+}
+p.subtitle {
+        font-style: italic;
+        font-size: 14px;
+        margin-top: 2px;
+}
+img.logo {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 200px;
+}
+div.actions {
+        border: 1px solid lightgrey;
+        padding: 0px 20px 20px 20px;
+        margin-bottom: 20px;
+}
+div.actions a {
+        display: block;
+        margin-bottom: 20px;
+}
+div.actions a:before {
+        content: "→";
+        margin-right: 6px;
+}
+div.actions h3 {
+        text-align: center;
+        margin-bottom: 20px;
+        padding-bottom: 10px;
+        border-bottom: 1px solid lightgrey;
+}
 img.background {
   position: absolute;
   top: 0;
