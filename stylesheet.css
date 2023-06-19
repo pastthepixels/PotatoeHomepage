@@ -1,3 +1,6 @@
+* {
+        transition: all 0.1s ease;
+}
 html {
         font-family: monospace;
         display:flex;
@@ -32,12 +35,25 @@ div.actions {
         margin-bottom: 20px;
 }
 div.actions a {
-        display: block;
+        display: flex;
+        align-items: center;
+        gap: 16px;
+        text-decoration: none;
         margin-bottom: 20px;
+        height: 20px;
+}
+div.actions a:hover {
+        border-left: 2px solid black;
+        padding-left: 10px;
 }
 div.actions a:before {
-        content: "→";
-        margin-right: 6px;
+        content: "";
+        display: block;
+        background: var(--icon) no-repeat;
+        background-size: cover;
+        height: 20px;
+        aspect-ratio: 1;
+        float: left;
 }
 div.actions h3 {
         text-align: center;
