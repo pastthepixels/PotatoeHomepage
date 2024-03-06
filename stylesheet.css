@@ -15,14 +15,25 @@ body {
         width: 80%;
         max-width: 500px;
 }
-body h1 {
+header {
         display: block;
         text-align: center;
 }
-p.subtitle {
+header h1 {
+        margin-bottom: -1px;
+}
+header p {
         font-style: italic;
+        font-weight: bold;
+        font-size: 14px;
+}
+nav {
+        font-style: italic;
+        font-weight: bold;
         font-size: 14px;
         margin-top: 2px;
+        text-align: center;
+        margin-bottom: 5px;
 }
 img.logo {
         display: block;
@@ -56,7 +67,7 @@ div.actions a:before {
         aspect-ratio: 1;
         float: left;
 }
-div.actions h3 {
+div.actions h2 {
         text-align: center;
         margin-bottom: 20px;
         padding-bottom: 10px;
