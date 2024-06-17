@@ -1,77 +1,110 @@
+/* Document root */
+:root {
+  --foreground-color: #ffffff;
+  --background-color: #231e31;
+  --accent-color: #81a1c1;
+  --border: 2px solid var(--foreground-color);
+
+  color-scheme: light dark;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --foreground-color: #231e31;
+    --background-color: #ffffff;
+    --accent-color: #5e81ac;
+  }
+}
+
 * {
-        transition: all 0.1s ease;
+  transition: all 0.1s ease;
 }
 html {
-        font-family: monospace;
-        display:flex;
-        justify-content:center;
-        align-items:center;
-        width:100%;
-        min-height:100%;
+  font-family: monospace;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  min-height: 100%;
+  background-color: var(--background-color);
+  color: var(--foreground-color);
 }
 body {
-        margin-top: 50px;
-        margin-bottom: 50px;
-        width: 80%;
-        max-width: 500px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  width: 80%;
+  max-width: 500px;
 }
 header {
-        display: block;
-        text-align: center;
+  display: block;
+  text-align: center;
 }
 header h1 {
-        margin-bottom: -1px;
+  margin-bottom: -1px;
 }
 header p {
-        font-style: italic;
-        font-weight: bold;
-        font-size: 14px;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 14px;
 }
 nav {
-        font-style: italic;
-        font-weight: bold;
-        font-size: 14px;
-        margin-top: 2px;
-        text-align: center;
-        margin-bottom: 5px;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 14px;
+  margin-top: 2px;
+  text-align: center;
+  margin-bottom: 5px;
 }
 img.logo {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        width: 200px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 200px;
 }
-div.actions {
-        border: 1px solid lightgrey;
-        padding: 0px 20px 20px 20px;
-        margin-bottom: 20px;
+/* Actions blocks */
+div.actions,
+fieldset.actions {
+  border: var(--border);
 }
-div.actions a {
-        display: flex;
-        align-items: center;
-        gap: 16px;
-        text-decoration: none;
-        margin-bottom: 20px;
-        height: 20px;
+
+fieldset.actions > legend {
+  font-weight: bold;
 }
-div.actions a:hover {
-        border-left: 2px solid black;
-        padding-left: 10px;
+
+.actions div.content {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  gap: 20px;
 }
-div.actions a:before {
-        content: "";
-        display: block;
-        background: var(--icon) no-repeat;
-        background-size: cover;
-        height: 20px;
-        aspect-ratio: 1;
-        float: left;
+.actions a {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  text-decoration: none;
+  height: 20px;
 }
-div.actions h2 {
-        text-align: center;
-        margin-bottom: 20px;
-        padding-bottom: 10px;
-        border-bottom: 1px solid lightgrey;
+.actions a:hover {
+  padding-left: 10px;
+}
+.actions a:before {
+  content: "";
+  display: block;
+  background: var(--icon) no-repeat;
+  background-size: cover;
+  height: 20px;
+  aspect-ratio: 1;
+  float: left;
+}
+.actions h2 {
+  text-align: center;
+  padding: 10px;
+  margin: 0;
+  border-bottom: var(--border);
 }
 img.background {
   position: fixed;
@@ -85,3 +118,25 @@ img.background {
   height: 100%;
   opacity: 0.2;
 }
+
+/* Links */
+a:link,
+a:link button {
+  font-weight: bold;
+  text-decoration: none;
+}
+
+a:link {
+  color: var(--foreground-color);
+}
+
+a:link:hover,
+a:link button:hover {
+  text-decoration: underline;
+  text-decoration-style: wavy;
+}
+
+a:visited {
+  color: var(--accent-color);
+}
+
