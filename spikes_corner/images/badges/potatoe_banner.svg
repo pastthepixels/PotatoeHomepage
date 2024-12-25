@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="88"
+   height="31"
+   viewBox="0 0 23.283333 8.2020833"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.4 (e7c3feb100, 2024-10-09)"
+   sodipodi:docname="potatoe_banner.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     inkscape:zoom="12.429181"
+     inkscape:cx="50.727398"
+     inkscape:cy="5.551452"
+     inkscape:window-width="1920"
+     inkscape:window-height="1040"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="g19" />
+  <defs
+     id="defs1" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="display:inline;fill:#ffffff;fill-opacity:1;stroke:#241f31;stroke-width:0.544018;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+       id="rect1949"
+       width="22.739315"
+       height="7.6580648"
+       x="0.27200907"
+       y="0.27200907"
+       rx="0"
+       ry="0"
+       sodipodi:type="rect"
+       d="M 3.9999368,3.9999368 H 124.00007 V 123.99988 H 3.9999368 Z"
+       inkscape:label="Background" />
+    <g
+       fill="none"
+       stroke="#3d3846"
+       stroke-miterlimit="10"
+       stroke-width="10"
+       id="g19"
+       style="display:inline;stroke:#241f31;stroke-width:6.47458;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+       transform="matrix(0.06493221,0,0,0.06493221,1.0964871,1.2082434)"
+       inkscape:label="Logo">
+      <path
+         d="M 0.00150919,-2.1059e-4 -13.843403,-306.30328 v 0 m -176.330927,266.266053 331.85082,-0.898497 m -331.85082,0.898497 148.205852,-266.266053 H 7.6481414 L 141.67649,-40.935724 0.00150919,-2.1059e-4 Z"
+         id="path15"
+         transform="matrix(0.217377,0,0,-0.217377,69.323891,36.937454)"
+         style="stroke:#241f31;stroke-width:29.785;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+         sodipodi:nodetypes="ccccccccccc" />
+      <path
+         d="M 0.00470307,-0.00659834 -224.22417,33.84876 m -197.39975,-33.8912982 197.39975,33.8912982 9.29046,300.60108 m 0,0 L -421.62392,-0.0425382 0.00470307,-0.00659834 Z m 0,0"
+         transform="matrix(0.217377,0,0,-0.217377,112.14741,81.713409)"
+         id="path17"
+         style="stroke:#241f31;stroke-width:29.785;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1" />
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-size:3.175px;font-family:'TeX Gyre Schola';-inkscape-font-specification:'TeX Gyre Schola';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#241f31;fill-opacity:1;stroke:none;stroke-width:0.529167"
+       x="15.35092"
+       y="5.1868916"
+       id="text1"><tspan
+         sodipodi:role="line"
+         id="tspan1"
+         style="font-style:normal;font-variant:normal;font-weight:800;font-stretch:normal;font-family:Cantarell;-inkscape-font-specification:'Cantarell Ultra-Bold';fill:#241f31;fill-opacity:1;stroke:none;stroke-width:0.529167"
+         x="15.35092"
+         y="5.1868916">Potatoe</tspan></text>
+  </g>
+</svg>
