@@ -114,12 +114,12 @@ a:visited {
   color: unset;
 }
 
-/* Badges */
-div.content.badges {
+/* Buttons */
+div.content.buttons {
 	flex-direction: row;
 	flex-wrap: wrap;
 }
 
-div.badges > img {
+div.buttons > img {
 	width: 100px;
 }
